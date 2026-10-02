@@ -1,0 +1,9 @@
+aws:
+  profile: aws-cost-reporter
+  region: us-east-1
+
+snapshot_age_days: 90
+
+cloudwatch:
+  lookback_days: 7
+  cpu_threshold: 5.0

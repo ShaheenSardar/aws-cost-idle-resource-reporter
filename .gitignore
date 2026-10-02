@@ -1,5 +1,41 @@
-.venv/
-.env
-*.log
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# Logs
+logs/
+*.log
+
+# Generated reports
+reports/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Pytest
 .pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
